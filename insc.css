@@ -1,0 +1,200 @@
+.connexion {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  min-height: 100vh;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connexion form {
+  margin: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  width: 50rem;
+  /* margin-top: 0; */
+}
+.connexion form h3 {
+  font-size: 3rem;
+  color: #444;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem 0;
+}
+.connexion form .box {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.7rem;
+  color: #333;
+  margin: 0.6rem 0;
+  border: 0.1rem solid rgb(0, 0, 0, 0.3);
+  text-transform: none;
+  /* padding-left: 1px; */
+}
+.connexion form .box:focus {
+  border-color: pink;
+}
+.connexion form #remember {
+  margin: 2rem 0;
+}
+.connexion form label {
+  font-size: 1.5rem;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: rgb(206, 22, 83);
+  color: whitesmoke;
+  padding: 0.8rem 1rem;
+  border: 0.2rem solid rgb(206, 22, 83);
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+.btn:hover {
+  background: pink;
+  color: black;
+}
+.connexion form .btn {
+  display: block;
+  width: 100%;
+}
+.connexion form p {
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  color: #666;
+}
+.connexion form p a {
+  color: rgb(206, 22, 83);
+}
+.connexion form p a :hover {
+  color: #333;
+  text-decoration: underline;
+}
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid rgb(236, 23, 94);
+  margin: 30px 0;
+}
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #fff;
+  font-weight: 500;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+  padding: 0 35px 0 5px;
+}
+.input-box .symbole {
+  position: absolute;
+  right: 8px;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 57px;
+}
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  top: -5px;
+}
+.login-register {
+  font-size: 0.9em;
+  color: aqua;
+  text-align: center;
+  font-weight: 500;
+  margin: 25px 0 10px;
+}
+.login-register p a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.login-register p a:hover {
+  text-decoration: underline;
+}
+.connexion .register {
+  position: absolute;
+  transform: translateX(400px);
+}
+.connexion form {
+  margin: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 15px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 500px;
+  height: 500px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgb(0, 0, 0, 0.5);
+  /* margin-top: 0; */
+}
+.connexion form h3 {
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.connexion form #remember {
+  margin: 2rem 0;
+}
+.connexion form label {
+  font-size: 1.5rem;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: rgb(206, 22, 83);
+  color: whitesmoke;
+  padding: 0.8rem 1rem;
+  border: 0.2rem solid rgb(206, 22, 83);
+  cursor: pointer;
+  font-size: 1rem;
+}
+.btn:hover {
+  background: pink;
+  color: black;
+}
+.connexion form .btn {
+  display: block;
+  width: 100%;
+}
+.connexion form p label {
+  color: #fff;
+}
+.connexion form p a {
+  color: rgb(206, 22, 83);
+}
+.connexion form p a :hover {
+  color: #333;
+  text-decoration: underline;
+}
+.connexion {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

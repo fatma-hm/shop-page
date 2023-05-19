@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>search</title>
+    <link rel="stylesheet" href="search.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <form action="">
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          name=""
+          id="search-item"
+          placeholder="Recherche..."
+          onkeyup="search()"
+        />
+      </form>
+      <div class="product-list" id="product-list">
+        <div class="product">
+          <a href="MakeUp5.html"
+            ><img
+              src="produits/mascaras-essence-essence-mascara-lash-princess-wp.jpg"
+              alt=""
+          /></a>
+          <div class="p-details">
+            <h2>ESSENCE - MASCARA "LASH PRINCESS" WP</h2>
+            <h3>14,000 DNT</h3>
+          </div>
+        </div>
+        <div class="product">
+          <a href="MakeUp13.html">
+            <img
+              src="produits/accueil-essence-essence-mascara-double-trouble.jpg"
+              alt=""
+          /></a>
+          <div class="p-details">
+            <h2>Essence-mascara "Double-Trouble"</h2>
+            <h3>14,000 DNT</h3>
+          </div>
+        </div>
+        <div class="product">
+          <a href="MakeUp8.html"
+            ><img
+              src="produits/rouge-a-levres-liquide-gloss-essence-essence-electric-glow-rouge-a-levres-en-stick-revelateur-de-couleur.jpg"
+              alt=""
+          /></a>
+          <div class="p-details">
+            <h2>
+              Essence-electric Glow Rrouge à levres en stick révélateur de
+              couleur
+            </h2>
+            <h3>14,900 DNT</h3>
+          </div>
+        </div>
+        <div class="product">
+          <a href="MakeUp8.html">
+            <img
+              src="produits/fonds-de-teint-liquide-compacte-essence-essence-fond-de-teint-stay-all-day-10-soft-beige.jpg"
+              alt=""
+          /></a>
+          <div class="p-details">
+            <h2>Essence-Fond de teint "stay all day" "10 soft beige"</h2>
+            <h3>22,000 DNT</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <a href="MakeUp12.html"
+            ><img
+              src="produits/fards-a-paupieres-revolution-revolution-palette-fard-a-paupiere-sophyx-extra-spice.jpg"
+              alt=""
+          /></a>
+          <div class="p-details">
+            <h2>Revolution-Palette fard à paupiere "sophyx extra spice"</h2>
+            <h3>48,900 DNT</h3>
+          </div>
+        </div>
+        <div class="product">
+          <a href="MakeUp10.html">
+            <img
+              src="produits/base-fixateur-artdeco-artdeco-base-maquillage-pore-minimizing.jpg"
+              alt=""
+          /></a>
+          <div class="p-details">
+            <h2>Artdeco-Base maquillage "pore minimizing"</h2>
+            <h3>39,900 DNT</h3>
+          </div>
+        </div>
+        <div class="product">
+          <a href="MakeUp4.html">
+            <img
+              src="produits/eyeliners-artdeco-artdeco-eye-liner-liquide-longue-tenue-12-blue.jpg"
+              alt=""
+          /></a>
+          <div class="p-details">
+            <h2>Artdeco-Eye liner liquide longue tenue 12 blue</h2>
+            <h3>32,900 DNT</h3>
+          </div>
+        </div>
+        <div class="product">
+          <a href="MakeUp11.html"
+            ><img
+              src="produits/fond-de-teint-filorga-filorga-flash-nude-fluid-teint-pro-perfection-spf30-01-beige-30ml.jpg"
+              alt=""
+          /></a>
+          <div class="p-details">
+            <h2>
+              Filorga-Flash nude fluid teint pro perfection spf30 (01 beige)
+              30ml
+            </h2>
+            <h3>97,185</h3>
+          </div>
+        </div>
+        <div class="product">
+          <a href="MakeUp3.html"
+            ><img
+              src="produits/rouge-a-levres-liquide-gloss-essence-essence-blush-liquide-joues-et-levres-what-a-tint-lip-cheek-tint.jpg"
+              alt=""
+          /></a>
+          <div class="p-details">
+            <h2>
+              Essence-Blush liquide joues et levres what à tint lip cheek tint
+            </h2>
+            <h3>14,335 DNT</h3>
+          </div>
+        </div>
+        <div class="product">
+          <a href="MakeUp6.html">
+            <img
+              src="produits/anti-cernes-correcteurs-elegant-elegant-anti-cerne-liquide-03-toffee.jpg"
+              alt=""
+          /></a>
+          <div class="p-details">
+            <h2>Elegant-Anti cerne liquide "03" toffee</h2>
+            <h3>14,000 DNT</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="produits/accessoires-forever-forever-cleaning.jpg" alt="" />
+          <div class="p-details">
+            <h2>Forever-Cleaning</h2>
+            <h3>23,500 DNT</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="produits/accueil-mika-headband-gris.jpg" alt="" />
+          <div class="p-details">
+            <h2>Hadband Gris</h2>
+            <h3>5,000 DNT</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            src="produits/pinceaux-pollie-brosse-pour-poudre-a-ongles-ref-3561-pollie.jpg"
+            alt=""
+          />
+          <div class="p-details">
+            <h2>Brosse pour poudre à ongles ref 3561-pollié</h2>
+            <h3>18,330 DNT</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            src="produits/yeux-artdeco-artdeco-faux-cils-magnetiques-03-couture.jpg"
+            alt=""
+          />
+          <div class="p-details">
+            <h2>Artdeco-Faux cils magnetiques 03 couture</h2>
+            <h3>24,800 DNT</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            src="produits/pinceaux-pollie-pinceau-maquillage-fluide-ref-04511-pollie.jpg"
+            alt=""
+          />
+          <div class="p-details">
+            <h2>Pinceau Maquillage fluide ref-04511 pollie</h2>
+            <h3>11,985 DNT</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="PRODUIT EN PROMO/sebiaclear-serum-30ml.jpg" alt="" />
+          <div class="p-details">
+            <h2>
+              SVR<br />
+              sebiaclear "serum" 30ml
+            </h2>
+            <h3>65.900DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="PRODUIT EN PROMO/sebiaclear-micro-peel-150ml.jpg" alt="" />
+          <div class="p-details">
+            <h2>
+              SVR<br />
+              sebiaclear "micro-peel" 150ml
+            </h2>
+            <h3>43.900DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            src="PRODUIT EN PROMO/sebiaclear-hydra-soin-reparateur-40ml.jpg"
+            alt=""
+          />
+          <div class="p-details">
+            <h2>
+              SVR<br />
+              sebiaclear "hydra soin reparateur" 40ml
+            </h2>
+            <h3>38.900DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            src="PRODUIT EN PROMO/pack-sebiaclear-soin-oxygénant.jpg"
+            alt=""
+          />
+          <div class="p-details">
+            <h2>
+              SVR<br />
+              pack sebiaclear "soin oxygénant"
+            </h2>
+            <h3>86.300DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="PRODUIT EN PROMO/ampoule-b3-hydra-30ml.jpg" alt="" />
+          <div class="p-details">
+            <h2>
+              SVR<br />
+              Ampoule [b3] "hydra " 30ml
+            </h2>
+            <h3>113.900DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img
+            src="PRODUIT EN PROMO/-cera-biotic-baume-regenerant-comblant-50-ml.jpg"
+            alt=""
+          />
+          <div class="p-details">
+            <h2>
+              SVR<br />
+              [cera] BIOTIC "baume regenerant comblant" 50-ml
+            </h2>
+            <h3>139.00DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="PRODUIT EN PROMO/1.jpg" alt="" />
+          <div class="p-details">
+            <h2>
+              SVR<br />
+              Ampoule [C] "Anti-OX" 30ml
+            </h2>
+            <h3>109.900DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="PRODUIT EN PROMO/2.jpg" alt="" />
+          <div class="p-details">
+            <h2>
+              SVR<br />
+              Day Clairial"correcteur uniformisant SPF30" 30ml
+            </h2>
+            <h3>65.900DTN</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="NOUVEAUX PRODUITS/P2.jpg" alt="" />
+          <div class="p-details">
+            <h2>
+              DAYLONG<br />
+              Lait Solaire "Liposomal SPF50+" 50ml
+            </h2>
+            <h3>49.900DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <a href="MakeUp2.html"
+            ><img src="NOUVEAUX PRODUITS/P3.jpg" alt=""
+          /></a>
+          <div class="p-details">
+            <h2>
+              ARTDECO<br />
+              Palette "The Bronze"
+            </h2>
+            <h3>42.900DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="NOUVEAUX PRODUITS/P4.jpg" alt="" />
+          <div class="p-details">
+            <h2>
+              L'OREAL PROFESSIONNEL<br />
+              Huil "Métal detox" Serie Expert 50ML
+            </h2>
+            <h3>86.900DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="NOUVEAUX PRODUITS/P5.jpg" alt="" />
+          <div class="p-details">
+            <h2>
+              KAINA COSMATICS<br />
+              Créme Radiance "Pure Glow" 50ML
+            </h2>
+            <h3>49.900DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="NOUVEAUX PRODUITS/P6.jpg" alt="" />
+          <div class="p-details">
+            <h2>
+              L'OREAL PROFESSIONNEL<br />
+              Soin Volumateur "Anti Gravité" serie Expert 200ml
+            </h2>
+            <h3>39.900DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="NOUVEAUX PRODUITS/P7.jpg" alt="" />
+          <div class="p-details">
+            <h2>
+              Avéne<br />
+              Spray Eau Thermale 300ML
+            </h2>
+            <h3>33.900DTN</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="NOUVEAUX PRODUITS/P8.jpg" alt="" />
+          <div class="p-details">
+            <h2>
+              URIAGE<br />
+              Spray Solaire Invisible SPF50+ 200ML
+            </h2>
+            <h3>69.900DTN</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      const search = () => {
+        const searchbox = document
+          .getElementById("search-item")
+          .value.toUpperCase();
+        const storeitems = document.getElementById("product-list");
+        const product = document.querySelectorAll(".product");
+        const pname = document.getElementsByTagName("h2");
+
+        for (var i = 0; i < pname.length; i++) {
+          let match = product[i].getElementsByTagName("h2")[0];
+
+          if (match) {
+            let textvalue = match.textContent || match.innerHTML;
+
+            if (textvalue.toUpperCase().indexOf(searchbox) > -1) {
+              product[i].style.display = "";
+            } else {
+              product[i].style.display = "none";
+            }
+          }
+        }
+      };
+    </script>
+  </body>
+</html>

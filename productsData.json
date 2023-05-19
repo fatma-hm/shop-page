@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "SVR sebiaclear serum 30ml",
+        "price": 65.9,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "PRODUIT EN PROMO/sebiaclear-serum-30ml.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "sebiaclear micro-peel 150ml",
+        "price": 43.9,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "PRODUIT EN PROMO/sebiaclear-micro-peel-150ml.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": " sebiaclear hydra soin reparateur 40ml",
+        "price": 38.9,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "PRODUIT EN PROMO/sebiaclear-hydra-soin-reparateur-40ml.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "SVR Pack sebiaclear Soin oxygénant",
+        "price": 86.3,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "PRODUIT EN PROMO/pack-sebiaclear-soin-oxygénant.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "SVR Ampoule [b3] hydra 30ml",
+        "price": 113.9,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "PRODUIT EN PROMO/ampoule-b3-hydra-30ml.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "SVR [cera] BIOTIC baume regenerant  comblant 50-ml",
+        "price": 139.0,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "PRODUIT EN PROMO/-cera-biotic-baume-regenerant-comblant-50-ml.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "SVR Ampoule [C] Anti-OX 30ml",
+        "price": 109.9,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "PRODUIT EN PROMO/1.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "SVR Day Clairial correcteur  uniformisant SPF30 30ml",
+        "price": 65.9,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "PRODUIT EN PROMO/2.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
