@@ -309,7 +309,7 @@
 /*********************end of shopping cart *************************/
 /*------------------------- end navbar  --------------------------*/
 main {
-  border-style: solid;
+  /* border-style: solid; */
   margin-top: 50px;
 }
 /*-------------------------- slides ---------------------------------*/
@@ -584,6 +584,9 @@ main {
 #star {
   font-size: small;
 }
+#shopping {
+  color: black;
+}
 /********************** single product ****************************/
 #prodetails {
   display: flex;
@@ -644,6 +647,22 @@ main {
 }
 #prodetails .single-pro-details button:hover {
   background: grey;
+}
+.pro-container {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.pro {
+  display: flex;
+  justify-content: space-around;
+  border: solid;
+}
+.meme-categorie {
+  display: flex;
+  justify-content: space-between;
+}
+.accessoire {
+  border: solid;
 }
 /*--------------------- end of products--------------------------  */
 /*----------------------------- cart -------------------------------*/
